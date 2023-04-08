@@ -108,33 +108,36 @@ nav a:hover{
     flex-direction: column;
     gap: 5px;
     margin: 10px;
+    margin-top: 1%;
 }
 
 .caja{ 
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     background-color: #207cce;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 30px;
     text-align: center;
-    gap: 20px;
+    gap: 12%;
     color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 6%;
+  
     display: block;
     padding: 10%;
     align-items: center;
    
  }
  .imagencataratas{
-    width: 200px;
+    width: 100%;
     height: 275px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 30px;
     margin-top: 10px;
 }
  .seccion2{
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
  }
  .caja2{
     width: 500px;
@@ -212,20 +215,21 @@ nav a:hover{
     border-radius: 5px;
     margin-top: 10px;
  }
+ 
 
 .imgarg{
-    width: 90%;
-    height: 245px;
-    margin-top: 20px;
-    margin-left: 30px;
+    width: 96%;
+    height: 243px;
+    margin-top: 3.5%;
+    margin-left: 2%;
     
 }
 
 .imgcari{
-    width: 90%;
-    height: 245px;
-    margin-top: 10px;
-    margin-left: 30px;
+    width: 96%;
+    height: 243px;
+    margin-top: 2%;
+    margin-left:2%;
 }
 
 main{
