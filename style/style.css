@@ -400,14 +400,20 @@ main{
     background-color: #06243d;
 }
 @media(max-width:800px){
- 
-   .footer-row {
+    body {
         text-align: center;
-    }
-    .footer-link {
         width: 100%;
         margin-bottom: 30px;
     }
+ 
+   .footer-row{
+        text-align: center;
+    }
+
+    .footerLink {
+        width: 100%;
+        margin-bottom: 30px;
+    } 
     .footerCont {
         width: 100%;
         margin-bottom: 30px;
