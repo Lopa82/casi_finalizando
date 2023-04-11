@@ -432,25 +432,34 @@ main{
     nav {
         flex-direction: column;
         align-items: center;
-        margin-right: 20px;
+        margin-left: 40%;
         background-color: #7690a8;
         color: aliceblue;
-        position: fixed;
+        position: fixed; 
         left: 0;
-        top: 100px;
-        width: 100%;
-        padding: 10px 20px;
-        margin: 0;
-        line-height: 70px;
-        
-    
-        
-
-        height: calc(25% - 50px);
+        top: 60px;
+        line-height: 40px;
         overflow-y: auto;
-
         left: 100%;
-                       
+        width: 60%;
+        height: 40%;
+        border: none;
+        display: inline-block;
+        background-color: rgb(8, 28, 46);
+        padding: 0;
+                   
+    }
+    nav:hover{
+        transition: all 5s ease-in;
+    }
+
+    .nav-link{
+        color: rgba(222, 222, 245, 0.5);
+        text-decoration: none;
+        display: block;
+        font-size: 1.2em;
+        margin: 0;
+       
     }
     
     .nav-link:hover{
@@ -493,7 +502,7 @@ main{
         height: 100%;
         align-items: center;
     }
-    .formulario2{
+    .inputContainer{
         text-align: center;
         align-items: center;
     }
